@@ -1,0 +1,53 @@
+Global
+-----
+* -1 does not use layout correctly (that is, redundant code in every view)
+* -1 no navigation
+
+(3 points) Make at Least 4 Commits
+-----
+
+(2 points) Installing Tools, Starting Project
+-----
+
+(2 points) Connect to the Database
+-----
+* db.js should be present
+* ...and included in app.js (or equivalent file)
+* -2 if any of the above are missing
+
+(3 points) Schema
+-----
+* -1 if items not embedded in list
+* -2 if model not created (this would make the entire program not work anyway)
+* -1 did not use slug plugin
+
+(4 points) List of Grocery Lists
+-----
+* -2 does not pull retrieve all lists
+* -2 does not link to grocery list detail page
+
+(4 points) Grocery List Form
+-----
+* -2 does not use slug in url
+
+(4 points) Handling the Form
+-----
+* -1 does not redirect to list detail page after form submission
+* -3 does not save new list
+
+(4 points) Displaying Grocery List Items
+-----
+* -2 display does not include checkboxes
+
+(8 points) Adding Grocery List Items
+-----
+* -3 feature does not actually save items (!)
+* -1 does not redirect back to  list detail page after form submission
+* -2 does not add item under appropriate list
+* -2 does not use hidden input (can be stacked with above issue)
+
+(6 points) Checking Off Items
+-----
+* ok if one item checking off does not work (mention that the inputs
+would need square brackets in order to force express to take input as
+array... listitems[])
